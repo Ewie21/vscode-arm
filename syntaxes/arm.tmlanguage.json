@@ -229,7 +229,7 @@
     "comments": {
       "patterns": [
         {
-          "match": "([;@]|//|#).*$",
+          "match": "([;]|//|#).*$",
           "name": "comment.arm"
         },
         {
