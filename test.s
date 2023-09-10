@@ -1,23 +1,23 @@
-@	test.s
-@	dan-c-underwood
-@	Version - 1.3.0
-@	15/08/15
-@
-@	Description - Example ARM Source File
+;	test.s
+;	dan-c-underwood
+;	Version - 1.3.0
+;	15/08/15
+;
+;	Description - Example ARM Source File
 
 strings:
-string_a: 	defw	"Awaiting input"
+string_a: 	defw	"Awaitinsg input"
 string_b:	defb    'a', 'b', 'c', 'd'
 
 branches:
-		b		start			@ With comment!
+		b		start			; With comment!
 		bne     end
 		bl      linked_place
 
 		include test.s
 
 stack:
-stack_end:      defs	512			@ Stack Declaration
+stack_end:      defs	512			; Stack Declaration
 
 
 		/* C Style comments

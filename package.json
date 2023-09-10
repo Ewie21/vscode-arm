@@ -1,12 +1,12 @@
 {
-	"name": "arm",
-	"displayName": "Arm Assembly",
-	"description": "Arm assembly syntax support for Visual Studio Code",
+	"name": "azalea-arm",
+	"displayName": "Azalea's Arm Assembly",
+	"description": "Arm assembly syntax support for Visual Studio Code, without the default comment being '@' (because my version of gcc doesn't support that)",
 	"version": "1.7.4",
-	"publisher": "dan-c-underwood",
+	"publisher": "AzaleaColburn",
 	"icon": "images/icon.png",
 	"author": {
-		"name": "Dan Underwood"
+		"name": "Dan Underwood and Azalea Colburn"
 	},
 	"categories": [
 		"Programming Languages"
@@ -20,7 +20,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dan-c-underwood/vscode-arm.git"
+		"url": "https://github.com/Ewie21/vscode-arm.git"
 	},
 	"contributes": {
 		"languages": [
